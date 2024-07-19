@@ -1,0 +1,53 @@
+*{
+    font-family: "Girassol", serif;
+}
+a{
+    text-decoration: none;
+    font-size:larger;
+    font-weight: bolder;
+
+}
+.title-container{
+font-size:60px;
+text-align: center;
+margin:50px auto;
+font-weight: 900;
+}
+
+.card{
+margin: 20px auto !important;
+height:fit-content;
+text-align: center !important;
+}
+.card > img{
+height:450px;
+}
+.title-card{
+font-size:25px;
+font-weight: 900;
+
+}
+.number-part{
+    color:#dc3545;
+    font-size:19px;
+    text-decoration: underline;
+}
+.date{
+font-size:smaller;
+}
+@media only screen and (max-width: 770px) {
+.d-flex{
+    display: block !important;
+}
+.card > img{
+    height:auto !important;
+
+    }
+}
+@media only screen and (max-width: 1023px) {
+
+    .card > img{
+        height:fit-content !important;
+        width:150px auto !important;
+        }
+    }
