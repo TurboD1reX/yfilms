@@ -5,23 +5,20 @@ a{
     text-decoration: none;
     font-size:larger;
     font-weight: bolder;
-
 }
-.title-container{
+h1{
 font-size:60px;
 text-align: center;
 margin:50px auto;
 font-weight: 900;
+background-color: transparent !important;
 }
 
 .card{
-margin: 20px auto !important;
 height:fit-content;
 text-align: center !important;
 }
-.card > img{
-height:450px;
-}
+
 .title-card{
 font-size:25px;
 font-weight: 900;
@@ -36,18 +33,9 @@ font-weight: 900;
 font-size:smaller;
 }
 @media only screen and (max-width: 770px) {
-.d-flex{
-    display: block !important;
+.card{
+    margin:15px 0 !important;
 }
-.card > img{
-    height:auto !important;
 
-    }
 }
-@media only screen and (max-width: 1023px) {
 
-    .card > img{
-        height:fit-content !important;
-        width:150px auto !important;
-        }
-    }
